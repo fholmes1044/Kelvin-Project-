@@ -1,0 +1,19 @@
+//this is the starting value. 
+const kelvin="293";
+
+//celsius is 273 less than kelvin
+const celsius = kelvin - 273;
+
+
+console.log (celsius);
+
+//convert fahrenheit to kelvin 
+let fahrenheit =  kelvin * (9/5) + 32;
+
+console.log (fahrenheit);
+
+//rounds the fahrenheit outcome
+
+console.log(Math.floor(fahrenheit));
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
